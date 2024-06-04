@@ -1,5 +1,5 @@
 #include "TicketClass.h"
-#include <iostream>
+#include <iostream> 123
 
 ticket::ticket(int trn, string st1, string st2, string dd, string dt, int cch, int st, int prc)
 {
@@ -39,14 +39,14 @@ void ticket::write_to(ofstream& readfile)
 void ticket::display()
 {
     cout << "\n %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
-    cout << " Íîìåð ïîåçäà: " << train << endl;
-    cout << " Ñòàíöèÿ îòïðàâëåíèÿ: " << station1 << endl;
-    cout << " Ñòàíöèÿ ïðèáûòèÿ: " << station2 << endl;
-    cout << " Äàòà îòïðàâëåíèÿ: " << dep_day << endl;
-    cout << " Âðåìÿ îòïðàâëåíèÿ: " << dep_time << endl;
-    cout << " Íîìåð âàãîíà: " << coach << endl;
-    cout << " Íîìåð ìåñòà: " << seat << endl;
-    cout << " Öåíà: " << price << endl;
+    cout << " ÃÃ®Ã¬Ã¥Ã° Ã¯Ã®Ã¥Ã§Ã¤Ã : " << train << endl;
+    cout << " Ã‘Ã²Ã Ã­Ã¶Ã¨Ã¿ Ã®Ã²Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: " << station1 << endl;
+    cout << " Ã‘Ã²Ã Ã­Ã¶Ã¨Ã¿ Ã¯Ã°Ã¨Ã¡Ã»Ã²Ã¨Ã¿: " << station2 << endl;
+    cout << " Ã„Ã Ã²Ã  Ã®Ã²Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: " << dep_day << endl;
+    cout << " Ã‚Ã°Ã¥Ã¬Ã¿ Ã®Ã²Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¿: " << dep_time << endl;
+    cout << " ÃÃ®Ã¬Ã¥Ã° Ã¢Ã Ã£Ã®Ã­Ã : " << coach << endl;
+    cout << " ÃÃ®Ã¬Ã¥Ã° Ã¬Ã¥Ã±Ã²Ã : " << seat << endl;
+    cout << " Ã–Ã¥Ã­Ã : " << price << endl;
 }
 int ticket::checkamount()
 {
@@ -73,7 +73,7 @@ int ticket::checkamount()
         readfile.close();
     }
     else {
-        cout << "Îøèáêà îòêðûòèÿ ôàéëà" << endl;
+        cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ  Ã®Ã²ÃªÃ°Ã»Ã²Ã¨Ã¿ Ã´Ã Ã©Ã«Ã " << endl;
     }
     cout << " N = ";
     cout << N << endl;
