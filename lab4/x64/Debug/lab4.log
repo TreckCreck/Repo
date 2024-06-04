@@ -1,0 +1,11 @@
+﻿  CashierClass.cpp
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.cpp(17,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.cpp(17,1): error C2556: 'int cashier::writeToFile(std::string)': overloaded function differs only by return type from 'void cashier::writeToFile(std::string)'
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.h(21,10): message : see declaration of 'cashier::writeToFile'
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.cpp(16,10): error C2371: 'cashier::writeToFile': redefinition; different basic types
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.h(21,10): message : see declaration of 'cashier::writeToFile'
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\CashierClass.cpp(21,1): error C2059: syntax error: '}'
+  lab4.cpp
+C:\Users\Алексей\Desktop\lab OOP\lab4\lab4\lab4.cpp(16,9): warning C4101: 'Availableseats': unreferenced local variable
+  TicketClass.cpp
+  Generating Code...
